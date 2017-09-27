@@ -1,7 +1,0 @@
-{"application":{ "name":"MR1", 
-
-"entities":[{"name":"MEMBER","properties":["FRIEND_CNT","PENDING_CNT"]}]
-
-
-}
-}

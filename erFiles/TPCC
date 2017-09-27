@@ -1,8 +1,0 @@
-{"application":
-	{"name":"TPCC","entities":[
-		{"name":"District","properties":["d_next_o_id"]},
-		{"name":"Last_Order","properties":["o_id"]},
-		{"name":"Order","properties":["ol_cnt", "carrier_id", "delivery_date"]},
-		{"name":"Customer","properties":["c_balance", "c_ytd_payment", "c_payment_cnt"]}
-	]}
-}
