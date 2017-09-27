@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/json-20140107.jar"/>
+	<classpathentry kind="lib" path="libs/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/kafka_2.11-0.10.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/kafka_2.11-0.10.0.0-scaladoc.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/kafka_2.11-0.10.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/kafka_2.11-0.10.0.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/kafka_2.11-0.10.0.0-test.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/kafka_2.11-0.10.0.0.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/kafka-clients-0.10.0.0.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/kafka-log4j-appender-0.10.0.0.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/kafka-streams-0.10.0.0.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/kafka-streams-examples-0.10.0.0.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/kafka-tools-0.10.0.0.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="kafkaServer/libs/slf4j-log4j12-1.7.21.jar"/>
+	<classpathentry kind="lib" path="libs/sizer.jar"/>
+	<classpathentry kind="lib" path="libs/mongodb/mongo-java-driver-3.4.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs/mongodb/mongo-java-driver-3.4.2-sources.jar"/>
+	<classpathentry kind="lib" path="libs/mongodb/mongo-java-driver-3.4.2.jar"/>
+	<classpathentry kind="lib" path="libs/treeLayout.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

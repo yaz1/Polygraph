@@ -1,0 +1,99 @@
+Port=55270
+arguments=onetime -t -s -db relational.JdbcDBClient -P C:\Users\yaz\Documents\BG\BG\workloads\ViewProfileAction -P C:\Users\yaz\Documents\BG\BG\workloads\populateDB_12000 -p logdir=C:\Users\yaz\Documents\BG\logs -p db.user=cosar -p validationapproach=novalidation -p exportfile=DistrStats -p insertimage=false -p warmupthreads=0 -p requestdistribution=tzipfian -p expectedlatency=0.1 -p thinktime=0 -p warmup=0 -p zipfianmean=0.27 -p db.passwd=gocosar -p numloadthreads=1 -p initapproach=deterministic -p db.url=jdbc:oracle:thin:@//10.0.1.45:1521/ORCL -p db.driver=oracle.jdbc.driver.OracleDriver -p ratingmode=false -p resourcecountperuser=0 -p friendcountperuser=100 -p confperc=0 -p threadcount=100 -p enforcefriendship=true -p numclients=1 -p maxexecutiontime=300 -p usercount=1000000 -p enablelogging=false -p benchmarkingmode=retain -p nummembers=1000000 -p useroffset=0 -p numsockets=200 -p clients=10.0.1.75:55269 -p machineid=0 
+BGClient is in onetime mode.
+*****max execution time specified : 300
+BG Client: ThreadCount =100
+
+Loading workload...
+0
+The actions of the workload are as following:
+ViewProfileAction=1.0
+tzipf in workload init phase
+ (might take a few minutes for large data sets)
+Time to create fragments : 1517 msec
+
+After init: Tue Mar 10 19:48:26 PDT 2015
+Connected
+Starting benchmark.
+OS=CPU:19.616140,Available MEM(MB):1083.7578125,NTBW(MB/sec):0.2883178721218109,DISK:0.110867,
+ 0 sec: 0 actions; Maximum execution time specified as: 300 secs
+ 0 sec: 0 operations; [PROFILE AverageResponseTime(us)=4106.19]
+OS=CPU:100.000000,Available MEM(MB):905.58984375,NTBW(MB/sec):1.2199352931976319E-4,DISK:0.000000,
+ 11 sec: 12739399 actions; 1110477.6 current acts/sec;  11 sec: 12739399 operations; 1110477.6 current ops/sec; [PROFILE AverageResponseTime(us)=36.72]
+OS=CPU:100.000000,Available MEM(MB):906.77734375,NTBW(MB/sec):1.2183445167541503E-4,DISK:0.000000,
+ 21 sec: 29605697 actions; 1684608.27 current acts/sec;  21 sec: 29605697 operations; 1684608.27 current ops/sec; [PROFILE AverageResponseTime(us)=28.61]
+OS=CPU:100.000000,Available MEM(MB):1474.296875,NTBW(MB/sec):0.0013717427053451538,DISK:0.002462,
+ 31 sec: 46661742 actions; 1703390.09 current acts/sec;  31 sec: 46661742 operations; 1703390.09 current ops/sec; [PROFILE AverageResponseTime(us)=28.33]
+ 41 sec: 63683808 actions; 1702206.6 current acts/sec;  41 sec: 63683808 operations; 1702206.6 current ops/sec; [PROFILE AverageResponseTime(us)=28.39]
+OS=CPU:100.000000,Available MEM(MB):2028.796875,NTBW(MB/sec):1.2187465953826904E-4,DISK:0.000000,
+ 51 sec: 80974306 actions; 1728704.06 current acts/sec;  51 sec: 80974306 operations; 1728704.06 current ops/sec; [PROFILE AverageResponseTime(us)=27.86]
+OS=CPU:100.000000,Available MEM(MB):2444.41015625,NTBW(MB/sec):2.5554323959350585E-4,DISK:0.000000,
+ 61 sec: 97599191 actions; 1660827.67 current acts/sec;  61 sec: 97599191 operations; 1660827.67 current ops/sec; [PROFILE AverageResponseTime(us)=29.08]
+OS=CPU:100.000000,Available MEM(MB):2748.88671875,NTBW(MB/sec):1.2212948513031007E-4,DISK:0.000300,
+ 71 sec: 114743306 actions; 1712185.66 current acts/sec;  71 sec: 114743306 operations; 1712185.66 current ops/sec; [PROFILE AverageResponseTime(us)=28.12]
+OS=CPU:98.461553,Available MEM(MB):2947.01171875,NTBW(MB/sec):1.2202088069915771E-4,DISK:0.000000,
+ 81 sec: 132123717 actions; 1737693.56 current acts/sec;  81 sec: 132123717 operations; 1737693.56 current ops/sec; [PROFILE AverageResponseTime(us)=27.73]
+OS=CPU:98.437516,Available MEM(MB):3082.38671875,NTBW(MB/sec):6.04772099494934E-4,DISK:0.000000,
+ 91 sec: 149173746 actions; 1703980.51 current acts/sec;  91 sec: 149173746 operations; 1703980.51 current ops/sec; [PROFILE AverageResponseTime(us)=28.25]
+OS=CPU:100.000000,Available MEM(MB):3150.33203125,NTBW(MB/sec):1.790468463897705E-4,DISK:0.000000,
+ 101 sec: 166331347 actions; 1713532.51 current acts/sec;  101 sec: 166331347 operations; 1713532.51 current ops/sec; [PROFILE AverageResponseTime(us)=28.12]
+OS=CPU:100.000000,Available MEM(MB):3194.7578125,NTBW(MB/sec):1.7717963790893555E-4,DISK:0.000000,
+ 111 sec: 183412772 actions; 1707630.21 current acts/sec;  111 sec: 183412772 operations; 1707630.21 current ops/sec; [PROFILE AverageResponseTime(us)=28.21]
+OS=CPU:100.000000,Available MEM(MB):3216.390625,NTBW(MB/sec):1.7858396244049073E-4,DISK:0.000000,
+ 121 sec: 200117035 actions; 1669257.82 current acts/sec;  121 sec: 200117035 operations; 1669257.82 current ops/sec; [PROFILE AverageResponseTime(us)=28.86]
+OS=CPU:98.437515,Available MEM(MB):3230.328125,NTBW(MB/sec):1.2210053634643554E-4,DISK:0.000000,
+ 131 sec: 217495726 actions; 1736653.44 current acts/sec;  131 sec: 217495726 operations; 1736653.44 current ops/sec; [PROFILE AverageResponseTime(us)=27.84]
+ 141 sec: 234728234 actions; 1721529.27 current acts/sec;  141 sec: 234728234 operations; 1721529.27 current ops/sec; [PROFILE AverageResponseTime(us)=27.98]
+OS=CPU:100.000000,Available MEM(MB):3234.26171875,NTBW(MB/sec):1.2199047470092774E-4,DISK:0.000000,
+ 151 sec: 251814946 actions; 1708158.75 current acts/sec;  151 sec: 251814946 operations; 1708158.75 current ops/sec; [PROFILE AverageResponseTime(us)=28.11]
+OS=CPU:98.846160,Available MEM(MB):3238.13671875,NTBW(MB/sec):1.218521842956543E-4,DISK:0.001378,
+ 161 sec: 269187301 actions; 1734980.03 current acts/sec;  161 sec: 269187301 operations; 1734980.03 current ops/sec; [PROFILE AverageResponseTime(us)=27.79]
+OS=CPU:98.478056,Available MEM(MB):3232.56640625,NTBW(MB/sec):1.7708819103240967E-4,DISK:0.000000,
+ 171 sec: 286539643 actions; 1734020.39 current acts/sec;  171 sec: 286539643 operations; 1734020.39 current ops/sec; [PROFILE AverageResponseTime(us)=27.81]
+OS=CPU:100.000000,Available MEM(MB):3211.37109375,NTBW(MB/sec):0.00414965860080719,DISK:0.000000,
+ 181 sec: 303742863 actions; 1719978 current acts/sec;  181 sec: 303742863 operations; 1719978 current ops/sec; [PROFILE AverageResponseTime(us)=28.04]
+OS=CPU:100.000000,Available MEM(MB):3199.75,NTBW(MB/sec):4.635397310256958E-4,DISK:0.000000,
+ 191 sec: 320822152 actions; 1707075.36 current acts/sec;  191 sec: 320822152 operations; 1707075.36 current ops/sec; [PROFILE AverageResponseTime(us)=28.2]
+OS=CPU:100.000000,Available MEM(MB):3179.04296875,NTBW(MB/sec):1.2192640018463135E-4,DISK:0.004923,
+ 201 sec: 338004640 actions; 1717218.47 current acts/sec;  201 sec: 338004640 operations; 1717218.47 current ops/sec; [PROFILE AverageResponseTime(us)=28.03]
+OS=CPU:100.000000,Available MEM(MB):3157.5390625,NTBW(MB/sec):1.218290195465088E-4,DISK:0.000492,
+ 211 sec: 355473875 actions; 1745004 current acts/sec;  211 sec: 355473875 operations; 1745004 current ops/sec; [PROFILE AverageResponseTime(us)=27.63]
+OS=CPU:100.000000,Available MEM(MB):3133.28515625,NTBW(MB/sec):3.505941095352173E-4,DISK:0.000886,
+ 221 sec: 372840823 actions; 1736347.53 current acts/sec;  221 sec: 372840823 operations; 1736347.53 current ops/sec; [PROFILE AverageResponseTime(us)=27.74]
+OS=CPU:100.000000,Available MEM(MB):3103.72265625,NTBW(MB/sec):9.735014591217041E-4,DISK:0.000897,
+ 231 sec: 390136516 actions; 1728186.75 current acts/sec;  231 sec: 390136516 operations; 1728186.75 current ops/sec; [PROFILE AverageResponseTime(us)=27.9]
+ 241 sec: 407095308 actions; 1695540.09 current acts/sec;  241 sec: 407095308 operations; 1695540.09 current ops/sec; [PROFILE AverageResponseTime(us)=28.52]
+OS=CPU:100.000000,Available MEM(MB):3074.34765625,NTBW(MB/sec):0.012406736847877502,DISK:0.000000,
+ 251 sec: 424346308 actions; 1724410.24 current acts/sec;  251 sec: 424346308 operations; 1724410.24 current ops/sec; [PROFILE AverageResponseTime(us)=27.92]
+OS=CPU:100.000000,Available MEM(MB):3050.59375,NTBW(MB/sec):0.00912085274887085,DISK:0.000000,
+ 261 sec: 441023789 actions; 1667414.62 current acts/sec;  261 sec: 441023789 operations; 1667414.62 current ops/sec; [PROFILE AverageResponseTime(us)=28.97]
+OS=CPU:98.437515,Available MEM(MB):3030.02734375,NTBW(MB/sec):0.007122969597816467,DISK:0.000900,
+ 271 sec: 458102819 actions; 1706196.8 current acts/sec;  271 sec: 458102819 operations; 1706196.8 current ops/sec; [PROFILE AverageResponseTime(us)=28.25]
+OS=CPU:98.461554,Available MEM(MB):3004.86328125,NTBW(MB/sec):0.0016344210596084595,DISK:0.000000,
+ 281 sec: 475366456 actions; 1724466.79 current acts/sec;  281 sec: 475366456 operations; 1724466.79 current ops/sec; [PROFILE AverageResponseTime(us)=27.96]
+OS=CPU:100.000000,Available MEM(MB):2990.79296875,NTBW(MB/sec):0.0028783480949401857,DISK:0.000000,
+ 291 sec: 491949514 actions; 1657642.74 current acts/sec;  291 sec: 491949514 operations; 1657642.74 current ops/sec; [PROFILE AverageResponseTime(us)=29.07]
+OS=CPU:100.000000,Available MEM(MB):2972.6484375,NTBW(MB/sec):0.006043929330825806,DISK:0.000985,
+Maximum time elapsed. Requesting stop for the workload.100
+Stop request is set to :true
+killerThread died
+monitoringThread died
+statusThread died
+
+After workload done: Tue Mar 10 19:53:30 PDT 2015
+Closing Visualization thread socket
+Visualization thread has Stopped...
+Logging is disabled. Validation is not invoked
+DONE
+OVERALLOPCOUNT(SESSIONS):506299188
+OVERALLTHROUGHPUT(SESSIONS/SECS):1666570.7297965419
+OVERALLOPCOUNT(ACTIONS):506299188
+OVERALLTHROUGHPUT(ACTIONS/SECS):1666570.7297965419
+RAMPEDOVERALLOPCOUNT(SESSIONS):5.06299188E8
+RAMPEDOVERALLTHROUGHPUT(SESSIONS/SECS):1666570.7297965419
+RAMPEDOVERALLOPCOUNT(ACTIONS):5.06299188E8
+RAMPEDOVERALLTHROUGHPUT(ACTIONS/SECS):1666570.7297965419
+Executing benchmark is completed.
+EXECUTIONDONE
+SHUTDOWN!!!
+Stop requested for workload. Now Joining!
